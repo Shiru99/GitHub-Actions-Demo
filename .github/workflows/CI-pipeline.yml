@@ -56,7 +56,7 @@ jobs:
 #           password: ${{ secrets.DOCKERHUB_PASSWORD }}
 #       - run : pwd && ls
 #       - name: Build and push
-        uses: docker/build-push-action@v2
-        with:
-          push: true
-          tags: user/hello-world:latest
+#         uses: docker/build-push-action@v2
+#         with:
+#           push: true
+#           tags: user/hello-world:latest
