@@ -45,4 +45,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/hello-world:latest
+          tags: shiru99/shiru99-demo:hello-world:latest
