@@ -29,10 +29,14 @@ jobs:
     
     - name: Test with Maven
       run: cd hello-world/ && mvn -B test --file pom.xml
-
-    - name: find the jar
-      run: find hello-docker-world-0.0.1-SNAPSHOT.jar
+      
     - run: pwd
+    
+    - run: cd /hello-world/target/
+    
+    - run: pwd
+    
+    - run: ls -la
       
     # Build & Push Docker Image
 #     - name: Set up QEMU
