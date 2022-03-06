@@ -1,2 +1,10 @@
-# GitHub-Actions-Demo
-GitHub Actions Demo (Continuous Integration)
+# GitHub-Action-Demo
+
+Continuous Integration using GitHub Actions
+
+
+## Project :
+
+Simple Hello World spring boot application
+
+---
